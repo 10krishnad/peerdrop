@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #609966;
+    font-size: 10px;
+}
+nav{
+    margin: 5vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 12rem;
+    color: white;
+    font-family: serif;
+}
+.image{
+    background-color: #9DC08B;
+    margin-top: 8vh;
+    box-shadow: 25px 30px 25px #40513B ;
+    margin-left: 25vw;
+    height: 40vh;
+    width: 50vw;
+    image-resolution: from-image;
+    display: flex;
+    border-style: dashed ;
+}
+#img1{
+    margin: 3vw;
+    margin-top: 2vw;
+    height: 25vh;
+    width: 12vw;
+    background-image: url(./images/frog.png);
+    background-repeat: no-repeat;
+}
+#img2{
+    margin-top: 2vw;
+    margin: 3vw;
+    height: 25vh;
+    width: 12vw;
+    background-image: url(./images/email-marketing.png);
+    background-repeat: no-repeat;
+}
+#img3{
+    margin: 3vw;
+    margin-top: 2vw;
+    height: 25vh;
+    width: 12vw;
+    background-image: url(./images/selfie.png);
+    background-repeat: no-repeat;
+}
+input{
+    height: 3vh;
+    width: 7vw;
+    margin-top: 27vh;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    margin: 0px;
+    padding: 0px;
+    width: 2vw;
+    height: 4vh;
+    display: inline;
+}
+button:hover{
+    cursor: pointer;
+    scale: 2;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: cursive;
+    margin-top: 20vh;
+}
