@@ -13,6 +13,7 @@ nav{
     justify-content: center;
 }
 h1{
+    text-shadow: 10px 10px 20px black;
     margin-left: 20vw;
     margin-right: 20vw;
     font-size: 12rem;
@@ -31,39 +32,38 @@ h1{
     border-style: dashed ;
 }
 #img1{
-    margin: 3vw;
-    margin-top: 2vw;
-    height: 25vh;
+    height: 30vh;
     width: 12vw;
-    background-image: url(./images/frog.png);
-    background-repeat: no-repeat;
+    margin: 3vh;
+    margin-left: 5vw;
 }
 #img2{
-    margin-top: 2vw;
-    margin: 3vw;
-    height: 25vh;
+    height: 30vh;
     width: 12vw;
-    background-image: url(./images/email-marketing.png);
-    background-repeat: no-repeat;
+    margin: 3vh;
 }
 #img3{
-    margin: 3vw;
-    margin-top: 2vw;
-    height: 25vh;
+    height: 30vh;
     width: 12vw;
-    background-image: url(./images/selfie.png);
-    background-repeat: no-repeat;
+    margin: 3vh;
+    margin-left: 5vw;
+}
+p{
+    margin-top: 2vh;
+    font-family: cursive;
+    text-shadow: 10px 10px 15px black;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2vh;
 }
 input{
     height: 3vh;
-    width: 7vw;
-    margin-top: 27vh;
-    font-size: 30px;
+    width: 8vw;
+    font-size: 50px;
+    color: white;
     text-align: center;
 }
 button{
-    margin: 0px;
-    padding: 0px;
     width: 2vw;
     height: 4vh;
     display: inline;
@@ -71,13 +71,15 @@ button{
 button:hover{
     cursor: pointer;
     scale: 2;
+    background-color: #609966 ;
 }
-footer{
+#footer{
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem ;
+    letter-spacing: 10px;
     font-style: italic;
-    font-weight: lighter;
     font-family: cursive;
-    margin-top: 20vh;
+    text-shadow: 5px 5px 15px black;
+    margin-top: 17vh;
 }
